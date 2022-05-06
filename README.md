@@ -1,5 +1,9 @@
 # Report Generator
 
+![](./fig/architecture.drawio.png)
+
+日報から簡単にレポートを出力できるインテグレーション。
+
 ## Syntax
 
 ```
@@ -25,5 +29,7 @@ go run ./main.go \
 
 ## Installation
 
-1. Google Form の回答タブから `回答をダウンロード(.csv)` を選択
-2. 実行
+1. [Google Form(Template)](https://docs.google.com/forms/d/1Ee8WxMvLLZvv-1_nwWR74_5q8O2jwHLtWaV7zgBr7tg/edit?usp=sharing) を用意
+2. Google Form の回答タブから Google Spreadsheet  を選択 スプレッドシートに移動。
+3. csv 形式でダウンロード。
+4. プログラムを実行。
