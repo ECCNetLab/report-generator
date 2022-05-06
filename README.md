@@ -18,6 +18,7 @@ go run ./main.go \
 
 - -i （入力する csv）
 - -c （クラブ名）
+- -r （教室名）
 - -t （テンプレート）
 - -om （markdown 出力名）
 - -oe （excel 出力名）
